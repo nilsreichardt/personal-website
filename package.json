@@ -1,0 +1,31 @@
+{
+    "name": "personal-website",
+    "version": "1.2.0",
+    "private": true,
+    "dependencies": {
+        "font-awesome": "^4.7.0",
+        "gh-pages": "^1.0.0",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "react-fontawesome": "^1.6.1",
+        "react-router-dom": "^4.2.2",
+        "react-scripts": "1.0.14"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/guidezpl/personal-website.git"
+    },
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/guidezpl/personal-website/issues"
+    },
+    "homepage": "https://guidez.pl"
+}

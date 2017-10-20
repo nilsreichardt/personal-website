@@ -1,0 +1,18 @@
+.AboutWrapper {
+    margin-top: 300px;
+}
+
+a.button:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+a.button {
+    font-size: 22px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 20px 70px;
+    background-color: transparent;
+    opacity: .7
+}
