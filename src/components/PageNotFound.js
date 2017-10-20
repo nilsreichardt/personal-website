@@ -3,10 +3,9 @@ import PropTypes from 'prop-types';
 
 export default function PageNotFound({ location }) {
     return (
-        <p style={{ color: 'white' }}>
-            Page not found - the path, {location.pathname},
-            did not match any React Router routes.
-        </p>
+        <h2 style={{ color: 'white', paddingTop:'100px'}}>
+            Page {location.pathname} not found
+        </h2>
     );
 }
 
