@@ -54,19 +54,15 @@
   color: #FFF;
   text-align: center;
   font-size: 40px;
-  font-family: "Lato", sans-serif;
   font-weight: 700;
   margin-top: -60px;
   padding-left: 10px;
 }
 
 #title p {
-    font-size: 60%;
+  font-size: 60%;
+  color: #b8b8b8;
 }
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
 
 @keyframes animStar {
   from {
