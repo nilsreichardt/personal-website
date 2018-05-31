@@ -6,9 +6,9 @@ const Home = () => (
         <div id='stars'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>
-        <div id='title'>
+        <div id='title' className="animate fadeInUp two">
             Pierre-Louis Guidez
-            <p style={{color: '#b8b8b8'}}>
+            <p className="animate-short slideInLeft two">
               Waterloo Computer Science student, currently searching for a Fall 2018 internship opportunity
             </p>
         </div>
