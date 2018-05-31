@@ -28,11 +28,12 @@ class NavBar extends Component {
       <div id="links">
         {
           this.props.items.map((item) =>
-          <NavLink className="NavLink" key={item.title} exact activeClassName="is-active" to={`${item.path}`}>{item.title}</NavLink>)
-          }
-          <a className="NavLink" href="https://blog.guidez.pl">Blog</a>
-        </div>
-      </nav>
-    )
-  }
-  export default NavBar;
+          <NavLink className="NavLink" key={item.title} exact activeClassName="is-active" to={`${item.path}`}>
+            {item.title}
+          </NavLink>)
+        }
+      </div>
+    </nav>
+  )
+}
+export default NavBar;
