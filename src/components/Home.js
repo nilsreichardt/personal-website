@@ -7,8 +7,10 @@ const Home = () => (
         <div id='stars2'></div>
         <div id='stars3'></div>
         <div id='title'>
-            Welcome to my website!
-            <p>More to come soon ↓</p>
+            Pierre-Louis Guidez
+            <p style={{color: '#b8b8b8'}}>
+              Waterloo Computer Science student, currently searching for a Fall 2018 internship opportunity
+            </p>
         </div>
         <div style={{height: '2000px'}}>
 

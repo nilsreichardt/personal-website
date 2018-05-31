@@ -4,7 +4,7 @@
     transition: color .3s, background-color .3s,background-image .3s 0.3s;
     background: rgba(255,255,255,0.95);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1;
 }
