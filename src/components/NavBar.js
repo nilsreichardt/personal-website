@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 
@@ -14,7 +13,6 @@ class NavBar extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
-    this.nav = ReactDOM.findDOMNode(this);
     this.handleScroll();
   }
 
