@@ -6,7 +6,6 @@ import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import About from './components/About';
-import Projects from './components/Projects';
 import './App.css';
 
 const items = [
@@ -19,11 +18,6 @@ const items = [
     'path': '/about',
     'title': 'About',
     'component': About
-  },
-  {
-    'path': '/projects',
-    'title': 'Projects',
-    'component': Projects
   },
   {
     'path': '/contact',
@@ -39,7 +33,6 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" render={() => <div></div>}/>
           <Route component={PageNotFound} />
         </Switch>
