@@ -9,7 +9,7 @@ const Home = () => (
         <div id='title' className="animate fadeInUp two">
             Pierre-Louis Guidez
             <p className="animate-short slideInLeft two">
-              Waterloo Computer Science student, currently interning at Google.
+              Waterloo Computer Science student.
             </p>
         </div>
         <div style={{height: '2000px'}}>
