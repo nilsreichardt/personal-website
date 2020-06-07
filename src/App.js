@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import PageNotFound from './components/PageNotFound';
 import Home from './components/Home';
@@ -28,17 +28,18 @@ const items = [
 class App extends Component {
   render = () => (
     <div className="App">
-      <ScrollToTop>
-        <NavBar items={items} />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" render={() => <div></div>}/>
-          <Route component={PageNotFound} />
-        </Switch>
-        <Footer />
-      </ScrollToTop>
-
+        <BrowserRouter>
+            <ScrollToTop>
+                <NavBar items={items} />
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/contact" render={() => <div></div>}/>
+                    <Route component={PageNotFound} />
+                </Switch>
+                <Footer />
+            </ScrollToTop>
+        </BrowserRouter>
     </div>
   )
 }

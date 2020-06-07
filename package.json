@@ -1,34 +1,48 @@
 {
-    "name": "personal-website",
-    "version": "1.3.1",
-    "private": true,
-    "dependencies": {
-        "font-awesome": "^4.7.0",
-        "fsevents": "^2.1.3",
-        "react": "^16.0.0",
-        "react-dom": "^16.4.2",
-        "react-router-dom": "^4.2.2"
-    },
-    "devDependencies": {
-        "gh-pages": "^1.1.0",
-        "react-scripts": "1.0.14"
-    },
-    "scripts": {
-        "ghdeploy": "gh-pages -d build",
-        "deploy": "firebase deploy",
-        "start": "react-scripts start",
-        "resume_to_image": "convert -verbose -density 200 src/assets/resume.pdf  src/images/resume.png",
-        "build": "yarn resume_to_image && react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/guidezpl/personal-website.git"
-    },
-    "author": "Pierre-Louis Guidez",
-    "bugs": {
-        "url": "https://github.com/guidezpl/personal-website/issues"
-    },
-    "homepage": "https://guidez.pl"
+  "name": "personal-website",
+  "version": "1.3.2",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0",
+    "react-scripts": "3.4.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "2.1.3"
+  },
+  "scripts": {
+    "ghdeploy": "gh-pages -d build",
+    "deploy": "firebase deploy",
+    "start": "react-scripts start",
+    "resume_to_image": "convert -verbose -density 200 src/assets/resume.pdf  src/images/resume.png",
+    "build": "yarn resume_to_image && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidezpl/personal-website.git"
+  },
+  "author": "Pierre-Louis Guidez",
+  "bugs": {
+    "url": "https://github.com/guidezpl/personal-website/issues"
+  },
+  "homepage": "https://guidez.pl",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
