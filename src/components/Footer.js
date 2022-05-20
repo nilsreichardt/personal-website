@@ -10,7 +10,7 @@ class Footer extends Component {
         </a>
       </li>
       <li>
-        <a target="_blank" rel="noopener noreferrer" className="icon social" href="https://linkedin.com/in/pierrelouisguidez" title="linkedin">
+        <a target="_blank" rel="noopener noreferrer" className="icon social" href="https://linkedin.com/in/guidezpl" title="linkedin">
           <i className="fa fa-linkedin fa-2x"></i>
         </a>
       </li>
